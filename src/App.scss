@@ -1,0 +1,46 @@
+.App {
+  
+  .App-header {
+    
+    display: grid;
+    grid-gap: 15px;
+    margin-top: 40px;
+    grid-template-columns: 1fr;
+    
+    color: white;
+  }
+}
+
+body{
+  background-color: #3c97cc;
+  font-size: 18;
+}
+
+#editor, #preview{
+  padding: 18px;
+  border-radius: 10px;
+
+}
+
+#preview{
+  background-color: white;
+  color: black;
+  margin: 30px;
+  
+}
+
+#h1title{
+  text-align: center;
+}
+
+#editor{
+  min-height: 300px;
+  margin: 30px;
+}
+
+
+
+
+
+
+
